@@ -276,8 +276,11 @@ window= 34: 负例抓出 2/2 | 正例误伤 0/3
 
 ---
 
-## 11. 许可与注意事项
+## 11. 许可、引用与注意事项
 
 - **MIT License** — 见 [LICENSE](LICENSE)，Copyright (c) 2026 jamesylj。可自由使用、修改、分发，需保留版权声明。
+- **引用格式** — 见 [CITATION.cff](CITATION.cff)（GitHub 仓库页会出现 "Cite this repository" 按钮）。
+  若要引用本套件的实测结论，请**同时给出你运行时的模型名与日期**——本项目全部数字来自
+  `deepseek-chat` 在 2026-10-01 前后的运行，换模型结论可能不同。
 - `selftest_raw/` 是模型输出快照，**运行 `--ablation --save-raw` 会覆盖它**。
 - 本套件只调用 `https://api.deepseek.com/v1`；换模型用 `--model <名字>`。

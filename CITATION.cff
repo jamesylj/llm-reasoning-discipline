@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this prompt or its self-test suite in your work, please cite it as below."
+title: "LLM 推理纪律：提示词与自测套件"
+abstract: >-
+  一份用罗素（逻辑原子论）与维特根斯坦（《逻辑哲学论》/语言游戏）思想写成的 LLM 推理行为规范，
+  以及用于验证该提示词是否真的改变模型行为的自测套件（18 用例、6 种运行模式）。套件开发过程中
+  修正了 18 个度量缺陷，全部属于同一类错误：把预期的表述当成正确行为的判据。
+type: software
+authors:
+  - family-names: "jamesylj"
+    alias: "jamesylj"
+    website: "https://github.com/jamesylj"
+repository-code: "https://github.com/jamesylj/llm-reasoning-discipline"
+url: "https://github.com/jamesylj/llm-reasoning-discipline"
+license: MIT
+date-released: "2026-10-01"
+keywords:
+  - LLM reasoning
+  - chain-of-thought faithfulness
+  - prompt engineering
+  - logical atomism
+  - Tractatus Logico-Philosophicus
+  - evaluation harness
+  - measurement validity
