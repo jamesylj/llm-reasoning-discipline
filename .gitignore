@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# 本地密钥（本套件从 ~/.zshrc 读取 DEEPSEEK_API_KEY，绝不应写入仓库）
+.env
+.env.*
+*.key
+
+# 编辑器中转文件
+*.swp
+*~
