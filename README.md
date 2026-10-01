@@ -4,6 +4,8 @@
 
 本仓库最重要的产物不是提示词，而是**测量工具**：一套能把「提示词是否真的改变了模型行为」变成可复现数字的自测套件，以及在开发它过程中记录的 18 个度量缺陷。
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## 1. 快速开始
@@ -276,6 +278,6 @@ window= 34: 负例抓出 2/2 | 正例误伤 0/3
 
 ## 11. 许可与注意事项
 
-- 无 LICENSE 文件；如需开源请自行补充。
+- **MIT License** — 见 [LICENSE](LICENSE)，Copyright (c) 2026 jamesylj。可自由使用、修改、分发，需保留版权声明。
 - `selftest_raw/` 是模型输出快照，**运行 `--ablation --save-raw` 会覆盖它**。
 - 本套件只调用 `https://api.deepseek.com/v1`；换模型用 `--model <名字>`。
